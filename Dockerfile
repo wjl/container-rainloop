@@ -13,6 +13,7 @@ RUN \
 		php7-iconv \
 		php7-json \
 		php7-openssl \
+		php7-pdo_pgsql \
 		php7-pdo_sqlite \
 	&& \
 	rm -r /var/cache/apk/* && \
